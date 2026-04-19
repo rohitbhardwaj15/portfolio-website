@@ -36,11 +36,11 @@ export function Contact() {
           </a>
 
           <div className="md:col-span-5 flex flex-col gap-3 font-mono text-xs uppercase tracking-widest">
-            <a href="https://github.com/yourusername" target="_blank" rel="noreferrer" className="flex items-center justify-between border-b border-cream/15 py-3 text-cream/80 hover:text-[var(--sky-soft)] hover:border-[var(--sky-soft)] transition-colors">
+            <a href="https://github.com/rohitbhardwaj15" target="_blank" rel="noreferrer" className="flex items-center justify-between border-b border-cream/15 py-3 text-cream/80 hover:text-[var(--sky-soft)] hover:border-[var(--sky-soft)] transition-colors">
               <span>① GitHub</span>
               <span>→</span>
             </a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer" className="flex items-center justify-between border-b border-cream/15 py-3 text-cream/80 hover:text-[var(--sky-soft)] hover:border-[var(--sky-soft)] transition-colors">
+            <a href="https://www.linkedin.com/in/rohit-bhardwaj-1514a73aa" target="_blank" rel="noreferrer" className="flex items-center justify-between border-b border-cream/15 py-3 text-cream/80 hover:text-[var(--sky-soft)] hover:border-[var(--sky-soft)] transition-colors">
               <span>② LinkedIn</span>
               <span>→</span>
             </a>
