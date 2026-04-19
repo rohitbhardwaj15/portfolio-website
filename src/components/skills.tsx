@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
 
 const groups = [
-  { label: "Frontend", items: ["React", "Next.js", "Tailwind CSS"] },
-  { label: "Backend", items: ["Node.js", "Express.js"] },
+  { label: "Frontend", items: ["React", "Next.js"] },
+  { label: "Backend", items: ["Node.js", "Express"] },
   { label: "Database", items: ["MongoDB", "MySQL"] },
+  { label: "Creative", items: ["GSAP", "Three.js"] },
   { label: "Tools", items: ["Git", "Docker", "AWS"] },
 ];
 
@@ -20,7 +21,7 @@ export function Skills() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-px bg-cream/10 border border-cream/10">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-px bg-cream/10 border border-cream/10">
           {groups.map((g, i) => (
             <motion.div
               key={g.label}

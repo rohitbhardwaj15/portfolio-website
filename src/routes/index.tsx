@@ -4,8 +4,12 @@ import { Hero } from "@/components/hero";
 import { Marquee } from "@/components/marquee";
 import { About } from "@/components/about";
 import { Projects } from "@/components/projects";
+import { Timeline } from "@/components/timeline";
+import { Approach } from "@/components/approach";
 import { Skills } from "@/components/skills";
+import { Creative } from "@/components/creative";
 import { Philosophy } from "@/components/philosophy";
+import { CTA } from "@/components/cta";
 import { Contact } from "@/components/contact";
 import { SiteFooter } from "@/components/site-footer";
 
@@ -37,8 +41,12 @@ function Index() {
       <Marquee />
       <About />
       <Projects />
+      <Timeline />
+      <Approach />
       <Skills />
+      <Creative />
       <Philosophy />
+      <CTA />
       <Contact />
       <SiteFooter />
     </main>
