@@ -128,14 +128,34 @@ export function Projects() {
                   href={p.demo || p.github}
                   target="_blank"
                   rel="noreferrer"
-                  className="block overflow-hidden rounded-lg border border-cream/10 bg-cream/[0.02]"
+                  aria-label={`View ${p.title}`}
+                  className="relative block overflow-hidden rounded-lg border border-cream/10 bg-cream/[0.02]"
                 >
                   <img
                     src={p.image}
                     alt={`${p.title} preview`}
                     loading="lazy"
-                    className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-[1.03]"
+                    className="w-full h-auto object-cover transition-transform duration-700 group-hover:scale-[1.05]"
                   />
+                  <div
+                    aria-hidden="true"
+                    className="pointer-events-none absolute inset-0 flex flex-col justify-between p-4 md:p-5 bg-gradient-to-t from-[var(--plum-deep)]/90 via-[var(--plum-deep)]/40 to-transparent opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 ease-out"
+                  >
+                    <div className="font-mono text-[10px] uppercase tracking-[0.3em] text-[var(--sky-soft)]">
+                      {p.n} / {p.subtitle}
+                    </div>
+                    <div className="flex items-end justify-between gap-3">
+                      <h4 className="font-display text-2xl md:text-3xl text-cream leading-none italic">
+                        {p.title}
+                      </h4>
+                      <span className="font-mono text-[10px] uppercase tracking-widest text-cream flex items-center gap-2 whitespace-nowrap">
+                        View Project
+                        <span className="inline-block transition-transform duration-500 group-hover:translate-x-1">
+                          →
+                        </span>
+                      </span>
+                    </div>
+                  </div>
                 </a>
               ) : (
                 <p className="text-cream/70 leading-relaxed">{p.description}</p>
