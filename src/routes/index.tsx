@@ -1,26 +1,46 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { SiteNav } from "@/components/site-nav";
+import { Hero } from "@/components/hero";
+import { Marquee } from "@/components/marquee";
+import { About } from "@/components/about";
+import { Projects } from "@/components/projects";
+import { Skills } from "@/components/skills";
+import { Philosophy } from "@/components/philosophy";
+import { Contact } from "@/components/contact";
+import { SiteFooter } from "@/components/site-footer";
 
 export const Route = createFileRoute("/")({
+  head: () => ({
+    meta: [
+      { title: "Rohit Bhardwaj — Full Stack Developer & AI Engineer" },
+      {
+        name: "description",
+        content:
+          "Rohit Bhardwaj — Full stack developer building intelligent, scalable, and user-focused web applications powered by modern technologies and AI.",
+      },
+      { property: "og:title", content: "Rohit Bhardwaj — Full Stack Developer & AI Engineer" },
+      {
+        property: "og:description",
+        content:
+          "Building intelligent, scalable, and user-focused web applications with React, Node.js, and AI.",
+      },
+    ],
+  }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
-}
-
 function Index() {
-  return <PlaceholderIndex />;
+  return (
+    <main className="bg-background text-foreground overflow-x-hidden">
+      <SiteNav />
+      <Hero />
+      <Marquee />
+      <About />
+      <Projects />
+      <Skills />
+      <Philosophy />
+      <Contact />
+      <SiteFooter />
+    </main>
+  );
 }
