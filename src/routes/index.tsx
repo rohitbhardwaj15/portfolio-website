@@ -8,6 +8,7 @@ import { Timeline } from "@/components/timeline";
 import { Approach } from "@/components/approach";
 import { Skills } from "@/components/skills";
 import { Creative } from "@/components/creative";
+import { ProblemSolving } from "@/components/problem-solving";
 import { Philosophy } from "@/components/philosophy";
 import { CTA } from "@/components/cta";
 import { Contact } from "@/components/contact";
@@ -44,6 +45,7 @@ function Index() {
       <Timeline />
       <Approach />
       <Skills />
+      <ProblemSolving />
       <Creative />
       <Philosophy />
       <CTA />
