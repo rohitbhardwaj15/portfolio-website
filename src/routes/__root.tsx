@@ -29,14 +29,18 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Rohit Bhardwaj | Full Stack & AI Developer" },
+      { name: "description", content: "Full Stack Developer building AI-powered web apps using React, Node.js & modern technologies. Explore my projects, DSA skills, and portfolio." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Rohit Bhardwaj | Full Stack & AI Developer" },
+      { property: "og:description", content: "Full Stack Developer building AI-powered web apps using React, Node.js & modern technologies. Explore my projects, DSA skills, and portfolio." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Rohit Bhardwaj | Full Stack & AI Developer" },
+      { name: "twitter:description", content: "Full Stack Developer building AI-powered web apps using React, Node.js & modern technologies. Explore my projects, DSA skills, and portfolio." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/GIK5ARUuw9gFMetMCUgwuHwHt1F3/social-images/social-1776584872282-ChatGPT_Image_Apr_19,_2026,_01_11_07_PM.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/GIK5ARUuw9gFMetMCUgwuHwHt1F3/social-images/social-1776584872282-ChatGPT_Image_Apr_19,_2026,_01_11_07_PM.webp" },
     ],
     links: [
       {
