@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import surakshapayImg from "@/assets/project-surakshapay.png";
 import smartqueueImg from "@/assets/project-smartqueue.png";
+import resumeImg from "@/assets/project-resume.jpg";
+import portfolioImg from "@/assets/project-portfolio.jpg";
 
 type Project = {
   n: string;
@@ -47,6 +49,7 @@ const projects: Project[] = [
     stack: ["React", "Node.js", "Tailwind CSS", "AI APIs"],
     github: "https://github.com/rohitbhardwaj15/AI-RESUME-BUILDER",
     status: "In Progress",
+    image: resumeImg,
   },
   {
     n: "04",
@@ -56,6 +59,7 @@ const projects: Project[] = [
       "A modern, responsive portfolio website showcasing projects, skills, and experience. Designed with smooth animations, clean typography, and a focus on storytelling to create a memorable developer presence.",
     stack: ["React", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/rohitbhardwaj15/portfolio-website-",
+    image: portfolioImg,
   },
 ];
 
