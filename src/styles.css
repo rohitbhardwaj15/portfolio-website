@@ -9,6 +9,9 @@
   --font-display: "Fraunces", serif;
   --font-sans: "Inter", sans-serif;
   --font-mono: "Geist Mono", monospace;
+  --color-cream: var(--cream);
+  --color-plum-deep: var(--plum-deep);
+  --color-sky-soft: var(--sky-soft);
 }
 
 /*
