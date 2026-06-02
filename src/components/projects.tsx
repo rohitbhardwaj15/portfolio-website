@@ -12,6 +12,7 @@ type Project = {
   stack: string[];
   github: string;
   demo?: string;
+  backend?: string;
   status?: string;
   image?: string;
 };
@@ -25,7 +26,8 @@ const projects: Project[] = [
       "An AI-powered insurance solution designed to simplify policy management and risk assessment through intelligent automation. Built features like smart claim processing, user authentication, and dynamic dashboards for real-time insights.",
     stack: ["React", "Node.js", "Express", "MongoDB", "AI APIs"],
     github: "https://github.com/rohitbhardwaj15/surakshapay-ai-insurance",
-    demo: "https://j7ylg7mx49.c37.airoapp.ai/",
+    demo: "https://surakshapay-beige.vercel.app",
+    backend: "https://backend-six-theta-80.vercel.app",
     image: surakshapayImg,
   },
   {
@@ -119,6 +121,16 @@ export function Projects() {
                     className="text-cream/70 hover:text-[var(--sky-soft)] underline decoration-cream/20 underline-offset-4 transition-colors"
                   >
                     Live Demo →
+                  </a>
+                )}
+                {p.backend && (
+                  <a
+                    href={p.backend}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-cream/70 hover:text-[var(--sky-soft)] underline decoration-cream/20 underline-offset-4 transition-colors"
+                  >
+                    Backend →
                   </a>
                 )}
                 {p.status && (
