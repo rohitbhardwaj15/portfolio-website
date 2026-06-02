@@ -12,6 +12,7 @@ type Project = {
   stack: string[];
   github: string;
   demo?: string;
+  backend?: string;
   status?: string;
   image?: string;
 };
