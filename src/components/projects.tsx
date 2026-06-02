@@ -123,6 +123,16 @@ export function Projects() {
                     Live Demo →
                   </a>
                 )}
+                {p.backend && (
+                  <a
+                    href={p.backend}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-cream/70 hover:text-[var(--sky-soft)] underline decoration-cream/20 underline-offset-4 transition-colors"
+                  >
+                    Backend →
+                  </a>
+                )}
                 {p.status && (
                   <span className="text-[var(--sky-soft)]/80">● {p.status}</span>
                 )}
