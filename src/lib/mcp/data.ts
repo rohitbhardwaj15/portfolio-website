@@ -16,9 +16,9 @@ export const projects = [
     description:
       "An AI-powered insurance solution that simplifies policy management and risk assessment through intelligent automation, with smart claim processing, user authentication, and dynamic dashboards.",
     stack: ["React", "Node.js", "Express", "MongoDB", "AI APIs"],
-    github: "https://github.com/rohitbhardwaj15/surakshapay-ai-insurance",
-    demo: "https://surakshapay-beige.vercel.app",
-    backend: "https://backend-six-theta-80.vercel.app",
+    github: "https://github.com/rohitbhardwaj15/surakshapay",
+    demo: "https://surakshapay-frontend-qy0rmh7n4-rohitbhardwaj1714-4968s-projects.vercel.app",
+    backend: "https://surakshapay-backend-v2.onrender.com/api",
     status: "Live",
   },
   {
