@@ -1,8 +1,5 @@
 import { defineTool } from "@lovable.dev/mcp-js";
-import { defineTool as _unused } from "@lovable.dev/mcp-js";
 import { profile } from "../data";
-
-void _unused;
 
 export default defineTool({
   name: "get_profile",
