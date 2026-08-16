@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const groups = [
-  { label: "Frontend", items: ["React", "Next.js"] },
+  { label: "Frontend", items: ["React", "JavaScript"] },
   { label: "Backend", items: ["Node.js", "Express"] },
   { label: "Database", items: ["MongoDB", "MySQL"] },
   { label: "Creative", items: ["GSAP", "Three.js"] },
