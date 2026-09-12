@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import surakshapayImg from "@/assets/project-surakshapay.png";
 import smartqueueImg from "@/assets/project-smartqueue.png";
-import resumeImg from "@/assets/project-resume.jpg";
+import skillpilotAsset from "@/assets/project-skillpilot.png.asset.json";
 import portfolioImg from "@/assets/project-portfolio.jpg";
 
 type Project = {
@@ -44,14 +44,14 @@ const projects: Project[] = [
   },
   {
     n: "03",
-    title: "AI Resume Builder",
-    subtitle: "Smart Resume Generation",
+    title: "SkillPilot",
+    subtitle: "AI-Powered Personalized Learning Paths",
     description:
-      "A smart resume generation platform that leverages AI to create optimized, professional resumes based on user input. Implemented dynamic templates, content suggestions, and real-time preview for enhanced user experience.",
-    stack: ["React", "Node.js", "Tailwind CSS", "AI APIs"],
-    github: "https://github.com/rohitbhardwaj15/AI-RESUME-BUILDER",
-    status: "In Progress",
-    image: resumeImg,
+      "An AI-powered learning platform that turns a career goal into an evidence-based, prerequisite-safe roadmap. Combines skill-gap analysis, prerequisite modeling, TF-IDF, semantic embeddings, online preference learning, and diversity-aware ranking — then keeps adapting as learners complete courses, take assessments, and give feedback.",
+    stack: ["React", "Node.js", "Python", "NLP", "Embeddings", "ML Ranking"],
+    github: "https://github.com/rohitbhardwaj15/Skillpilot",
+    demo: "https://skillpilot-app.vercel.app/",
+    image: skillpilotAsset.url,
   },
   {
     n: "04",

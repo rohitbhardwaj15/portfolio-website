@@ -34,14 +34,15 @@ export const projects = [
     status: "Live",
   },
   {
-    slug: "ai-resume-builder",
-    title: "AI Resume Builder",
-    subtitle: "Smart Resume Generation",
+    slug: "skillpilot",
+    title: "SkillPilot",
+    subtitle: "AI-Powered Personalized Learning Paths",
     description:
-      "A smart resume generation platform that uses AI to create optimized, professional resumes, with dynamic templates, content suggestions, and real-time preview.",
-    stack: ["React", "Node.js", "Tailwind CSS", "AI APIs"],
-    github: "https://github.com/rohitbhardwaj15/AI-RESUME-BUILDER",
-    status: "In Progress",
+      "An AI-powered learning platform that turns a career goal into an evidence-based, prerequisite-safe, continuously adaptive learning roadmap using skill-gap analysis, prerequisite modeling, TF-IDF, semantic embeddings, online preference learning, and diversity-aware ranking.",
+    stack: ["React", "Node.js", "Python", "NLP", "Embeddings", "ML Ranking"],
+    github: "https://github.com/rohitbhardwaj15/Skillpilot",
+    demo: "https://skillpilot-app.vercel.app/",
+    status: "Live",
   },
   {
     slug: "portfolio-website",
