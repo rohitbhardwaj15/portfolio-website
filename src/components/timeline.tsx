@@ -8,8 +8,8 @@ const items = [
   },
   {
     year: "02",
-    title: "MERN Stack Development",
-    desc: "Created full-stack applications using MongoDB, Express.js, React.js, and Node.js with API and CRUD operations.",
+    title: "MERN Stack Development with AI Integration",
+    desc: "Created full-stack applications using MongoDB, Express.js, React.js, and Node.js with APIs and CRUD operations, enhanced with AI — models, embeddings, and generative AI APIs powering recommendations and automation.",
   },
   {
     year: "03",
@@ -20,11 +20,6 @@ const items = [
     year: "04",
     title: "Creative Web with Three.js & GSAP",
     desc: "Built interactive 3D and scroll-based experiences for immersive interfaces.",
-  },
-  {
-    year: "05",
-    title: "MERN Stack Development with AI Integration",
-    desc: "Shipped full-stack MERN products enhanced with AI — machine learning models, embeddings, and generative AI APIs powering recommendations, automation, and intelligent decision-making.",
   },
 ];
 
