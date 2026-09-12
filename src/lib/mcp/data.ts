@@ -12,9 +12,9 @@ export const projects = [
   {
     slug: "surakshapay",
     title: "SurakshaPay",
-    subtitle: "AI Insurance Platform",
+    subtitle: "AI-Powered Parametric Micro-Insurance for Gig Workers",
     description:
-      "An AI-powered insurance solution that simplifies policy management and risk assessment through intelligent automation, with smart claim processing, user authentication, and dynamic dashboards.",
+      "A full-stack parametric micro-insurance platform protecting gig and delivery workers from income loss due to rain, hazardous AQI, heatwaves, curfews, floods, cyclones, fog, and shutdowns, using event triggers, risk-based pricing, and a 4-layer fraud analysis engine to automate claims and simulate instant UPI payouts.",
     stack: ["React", "Node.js", "Express", "MongoDB", "AI APIs"],
     github: "https://github.com/rohitbhardwaj15/surakshapayy",
     demo: "https://surakshapay-frontend-qy0rmh7n4-rohitbhardwaj1714-4968s-projects.vercel.app",
@@ -24,9 +24,9 @@ export const projects = [
   {
     slug: "smartqueue",
     title: "SmartQueue",
-    subtitle: "AI-Powered Virtual Queue Optimization",
+    subtitle: "AI-Assisted Virtual Queue Optimization",
     description:
-      "An intelligent queue management system that reduces wait times using predictive analytics and real-time data processing, optimizing service flow in high-traffic environments.",
+      "A full-stack virtual queue platform for hospitals, banks, and government offices: remote queue joining, dynamic tokens, estimated wait times, recommended visit times, plus admin analytics with daily trends, weekly patterns, and peak-hour heatmaps.",
     stack: ["React", "Node.js", "Express", "MongoDB", "AI/ML"],
     github:
       "https://github.com/rohitbhardwaj15/SmartQueue---AI-Powered-Virtual-Queue-Optimization-System",

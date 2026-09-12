@@ -21,9 +21,9 @@ const projects: Project[] = [
   {
     n: "01",
     title: "SurakshaPay",
-    subtitle: "AI Insurance Platform",
+    subtitle: "AI-Powered Parametric Micro-Insurance for Gig Workers",
     description:
-      "An AI-powered insurance solution designed to simplify policy management and risk assessment through intelligent automation. Built features like smart claim processing, user authentication, and dynamic dashboards for real-time insights.",
+      "A full-stack parametric micro-insurance platform protecting gig and delivery workers from income loss caused by heavy rain, hazardous AQI, heatwaves, curfews, floods, cyclones, dense fog, and city-wide shutdowns. Instead of manual claims, it uses predefined event triggers, risk-based pricing, and a 4-layer fraud analysis engine to automate claim decisions and simulate instant UPI payouts.",
     stack: ["React", "Node.js", "Express", "MongoDB", "AI APIs"],
     github: "https://github.com/rohitbhardwaj15/surakshapayy",
     demo: "https://surakshapay-frontend-qy0rmh7n4-rohitbhardwaj1714-4968s-projects.vercel.app",
@@ -33,9 +33,9 @@ const projects: Project[] = [
   {
     n: "02",
     title: "SmartQueue",
-    subtitle: "AI-Powered Virtual Queue Optimization",
+    subtitle: "AI-Assisted Virtual Queue Optimization",
     description:
-      "An intelligent queue management system that reduces wait times using predictive analytics and real-time data processing. Designed to optimize service flow in high-traffic environments with automated queue handling.",
+      "A full-stack virtual queue platform for hospitals, banks, and government offices. Users join remotely, get a dynamic token, see estimated waiting time, and a recommended time to visit based on historical patterns. Admins get live queue management and analytics: queue size, average predicted wait, daily trends, weekly patterns, and peak-hour heatmaps.",
     stack: ["React", "Node.js", "Express", "MongoDB", "AI/ML"],
     github:
       "https://github.com/rohitbhardwaj15/SmartQueue---AI-Powered-Virtual-Queue-Optimization-System",
