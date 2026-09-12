@@ -21,6 +21,11 @@ const items = [
     title: "Creative Web with Three.js & GSAP",
     desc: "Built interactive 3D and scroll-based experiences for immersive interfaces.",
   },
+  {
+    year: "05",
+    title: "MERN Stack Development with AI Integration",
+    desc: "Shipped full-stack MERN products enhanced with AI — machine learning models, embeddings, and generative AI APIs powering recommendations, automation, and intelligent decision-making.",
+  },
 ];
 
 export function Timeline() {
