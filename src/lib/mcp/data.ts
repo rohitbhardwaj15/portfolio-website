@@ -62,5 +62,9 @@ export const skillGroups = [
   { label: "Database", items: ["MongoDB", "MySQL"] },
   { label: "Creative", items: ["GSAP", "Three.js"] },
   { label: "Tools", items: ["Git", "Docker", "AWS"] },
+  {
+    label: "AI",
+    items: ["Machine Learning", "Deep Learning", "Artificial Intelligence", "Generative AI"],
+  },
   { label: "Core CS", items: ["Data Structures & Algorithms", "SQL", "OOP"] },
 ];

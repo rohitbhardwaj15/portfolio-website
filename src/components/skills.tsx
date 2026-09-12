@@ -6,6 +6,10 @@ const groups = [
   { label: "Database", items: ["MongoDB", "MySQL"] },
   { label: "Creative", items: ["GSAP", "Three.js"] },
   { label: "Tools", items: ["Git", "Docker", "AWS"] },
+  {
+    label: "AI",
+    items: ["Machine Learning", "Deep Learning", "Artificial Intelligence", "Generative AI"],
+  },
 ];
 
 export function Skills() {
@@ -21,7 +25,7 @@ export function Skills() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-px bg-cream/10 border border-cream/10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-px bg-cream/10 border border-cream/10">
           {groups.map((g, i) => (
             <motion.div
               key={g.label}
@@ -38,7 +42,7 @@ export function Skills() {
                 {g.items.map((item) => (
                   <div
                     key={item}
-                    className="font-display text-2xl md:text-3xl text-cream group-hover:translate-x-1 transition-transform"
+                    className="font-display text-xl md:text-2xl text-cream group-hover:translate-x-1 transition-transform text-balance"
                   >
                     {item}
                   </div>
