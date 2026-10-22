@@ -6,24 +6,42 @@ const certifications = [
     title: "Back-End Developer",
     focus: "ABAP Cloud",
     note: "SAP Certified — professional back-end development on the ABAP Cloud platform.",
+    link: "https://lnkd.in/p/di9kKibb",
   },
   {
     issuer: "Oracle",
     title: "Certified Foundations Associate",
     focus: "Agentic AI",
     note: "Oracle Certified — foundational knowledge of agentic AI systems and workflows.",
+    link: "https://lnkd.in/p/dZq-7cub",
   },
   {
     issuer: "Cisco Networking Academy",
     title: "Introduction to Modern AI",
     focus: "Modern AI",
     note: "Completed course covering how modern AI works and where it creates real value.",
+    link: "https://lnkd.in/p/dBWSXp8P",
   },
   {
     issuer: "Amazon Web Services",
     title: "WS Academy Graduate",
     focus: "Cloud Foundations",
     note: "Training graduate — cloud fundamentals across core AWS services and architecture.",
+    link: "https://lnkd.in/p/dG9giVED",
+  },
+  {
+    issuer: "Forage × JPMorgan Chase & Co.",
+    title: "Software Engineering Job Simulation",
+    focus: "Job Simulation",
+    note: "Completed Forage's hands-on software engineering simulation built with JPMorgan Chase.",
+    link: "https://lnkd.in/p/dMBrx2uX",
+  },
+  {
+    issuer: "Forage × Deloitte",
+    title: "Cyber Job Simulation",
+    focus: "Cybersecurity",
+    note: "Completed Deloitte's cyber job simulation covering security analysis and reporting.",
+    link: "https://lnkd.in/p/dUUD4tmb",
   },
 ];
 
@@ -40,15 +58,15 @@ export function Certifications() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-px bg-cream/10 border border-cream/10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-cream/10 border border-cream/10">
           {certifications.map((c, i) => (
             <motion.div
               key={c.issuer}
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: i * 0.1, ease: [0.65, 0, 0.35, 1] }}
-              className="group bg-[var(--plum-deep)] p-8 md:p-10 min-h-[320px] flex flex-col justify-between hover:bg-background transition-colors"
+              transition={{ duration: 0.6, delay: i * 0.08, ease: [0.65, 0, 0.35, 1] }}
+              className="group bg-[var(--plum-deep)] p-8 md:p-10 min-h-[300px] flex flex-col justify-between hover:bg-background transition-colors"
             >
               <div>
                 <div className="font-mono text-xs uppercase tracking-widest text-[var(--sky-soft)]">
@@ -65,9 +83,22 @@ export function Certifications() {
                   {c.focus}
                 </div>
               </div>
-              <p className="mt-8 font-sans text-sm leading-relaxed text-muted-foreground text-pretty">
-                {c.note}
-              </p>
+              <div>
+                <p className="mt-8 font-sans text-sm leading-relaxed text-muted-foreground text-pretty">
+                  {c.note}
+                </p>
+                <a
+                  href={c.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-5 inline-flex items-center gap-2 font-mono text-xs uppercase tracking-widest text-cream/70 hover:text-[var(--sky-soft)] transition-colors"
+                >
+                  View certificate
+                  <span className="inline-block group-hover:translate-x-1 group-hover:-translate-y-0.5 transition-transform">
+                    ↗
+                  </span>
+                </a>
+              </div>
             </motion.div>
           ))}
         </div>
