@@ -46,6 +46,7 @@ function Index() {
       <Timeline />
       <Approach />
       <Skills />
+      <Certifications />
       <ProblemSolving />
       <Creative />
       <Philosophy />
