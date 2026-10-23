@@ -22,8 +22,11 @@ export function SiteNav() {
         <a href="#skills" className="hover:text-cream transition-colors">
           <span className="text-[var(--sky-soft)] mr-2">③</span>Skills
         </a>
+        <a href="#certifications" className="hover:text-cream transition-colors">
+          <span className="text-[var(--sky-soft)] mr-2">④</span>Certifications
+        </a>
         <a href="#contact" className="hover:text-cream transition-colors">
-          <span className="text-[var(--sky-soft)] mr-2">④</span>Contact
+          <span className="text-[var(--sky-soft)] mr-2">⑤</span>Contact
         </a>
       </nav>
       <a
